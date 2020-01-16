@@ -5,12 +5,13 @@
 ### Author: Natalie Alway
 
 ### Links and Resources
-* [submission PR]()
-* [travis]()
+* [submission PR](https://github.com/nataliealway-401-advanced-javascript/lab-08-express-routing/pull/1)
+* [travis](https://www.travis-ci.com/nataliealway-401-advanced-javascript/lab-08-express-routing)
+* [Backend](https://lab-08-express-routing.herokuapp.com/)
 
 
 #### Documentation
-* [jsdoc]()
+* [jsdoc](https://github.com/nataliealway-401-advanced-javascript/lab-08-express-routing/tree/workingBranch/docs)
 
 ### Setup
 #### `.env` requirements
