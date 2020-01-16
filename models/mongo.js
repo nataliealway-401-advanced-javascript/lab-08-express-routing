@@ -5,8 +5,22 @@ const uuid = require('uuid/v4');
 
 class Model {
 
+  /**
+   * Model Constructor
+   * @param schema {object} - mongo schema
+   */
   constructor() {
     this.database = [];
+  }
+  /**
+   * JSON Schema
+   * @returns {*}
+   */
+  jsonSchema() {
+    console.log(typeof this.schema.jsonSchema);
+    return typeof this.schema.jsonSchema === 'function'
+      ? this.schema.jsonSchema()
+      : {};
   }
 
   get(id) {
